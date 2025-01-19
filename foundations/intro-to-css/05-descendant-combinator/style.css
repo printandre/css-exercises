@@ -1,0 +1,12 @@
+/* descendant combinator work only with the second class!
+    N.B. they cannot be used with tag types!
+    N.B.(2) .container .text [with a space] -> descendant
+            .container.text [without a space] -> chain
+*/
+
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}

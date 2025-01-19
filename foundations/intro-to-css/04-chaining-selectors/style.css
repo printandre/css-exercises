@@ -1,3 +1,7 @@
+/* chained selector affect both classes .avatar.proportioned
+    at the same time!!! [no space betwwen them]
+*/
+
 .avatar.proportioned{
     width: 300px;
     height: auto;
